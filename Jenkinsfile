@@ -7,11 +7,6 @@ pipeline {
 	        checkout scm
 	        }
 	   }
-	   stage('Build Image') {
-	        steps {
-	        sh 'sudo docker build .'
-	        }
-	   }
 	   stage('Run Image') {
 	        steps {
 	        sh 'sudo docker run -d -p 5000:4000 --name nlpmodel mynlpmodel:v1'

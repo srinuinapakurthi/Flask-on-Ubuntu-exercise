@@ -3,3 +3,4 @@
 3. Install docker and jenkins 
 4. Deploy this flask app via gitlab pipeline
 5. View the image / web page on this container
+6. Create a report file and script file for your project

@@ -4,7 +4,7 @@ pipeline {
 	        stage('Clone Repository') {
 	        /* Cloning the repository to our workspace */
 	        steps {
-	        git url: "https://github.com/srinuinapakurthi/Flask-on-Ubuntu-exercise.git"
+	        checkout scm
 	        }
 	   }
 	   stage('Build Image') {

@@ -1,0 +1,5 @@
+1. Run the Flask file on your own machine
+2. Upload into Github and clone to Ubuntu server with configuration 2cpu and t2.medium  - Ubuntu on aws
+3. Install docker and jenkins 
+4. Deploy this flask app via gitlab pipeline
+5. View the image / web page on this container
